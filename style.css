@@ -79,17 +79,41 @@ main {
 }
 
 h2 {
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 #lists li {
-    padding: 10px 6px;
+    padding: 15px 0 ;
     font-size: 18px;
+}
+
+/* CHECKS */
+
+.check {
+    color: rgb(63, 170, 63);
+    background-color: rgb(255, 255, 255);
+    padding: 2px 2px 2px 5px;
+    border-radius: 50px;
+    border: solid rgb(63, 170, 63) thin;
+    font-size: 13px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.cross {
+    color: rgb(170, 5, 5);
+    background-color: rgb(255, 255, 255);
+    padding: 2px 5px 2px 5px;
+    border-radius: 50px;
+    border: solid rgb(170, 5, 5) thin;
+    font-size: 13px;
+    margin-right: 5px;
+    font-weight: bold;
 }
 
 /* ETICHETTE */
 
-#lists span {
+.etichetta {
     color: white;
     border-radius: 20px;
     border: none;
